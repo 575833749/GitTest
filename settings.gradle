@@ -1,0 +1,3 @@
+include ':app'
+include ':indexlib'
+project (':indexlib').projectDir = new File('../indexlib/')
